@@ -1,5 +1,23 @@
 # job_search
 
+## Install elasticsearch on mac
+
+```bash
+# need to tap the Elastic Homebrew repository
+$ brew tap elastic/tap
+
+# use brew install to install the latest version of Elasticsearch
+$ brew install elastic/tap/elasticsearch-full
+
+# start the elasticsearch
+$ elasticsearch
+
+# To make sure if the service is up, cURL Elasticsearch with:
+$ curl http://localhost:9200
+```
+
+# nuxt docs
+
 ## Build Setup
 
 ```bash

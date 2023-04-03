@@ -1,9 +1,9 @@
 <template>
-  <Tutorial/>
+  <Search_Input />
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+    name: "IndexPage"
 }
 </script>
